@@ -1,0 +1,23 @@
+
+Magn3t Software
+
+Requirements:
+-SWIG - for the python interface 
+-Eigen library
+
+Copile:
+	-edit the makefile to point out the location of Python.h is. The default 
+		location is /usr/local/include/python3.7m, or another version number
+	-edit the makefile to point to the location of Eigen headers, the default is /usr/local/include/eigen3 
+
+	-run:
+		make
+	
+	At this point a shared library _magne3t.so is compiled and the python module magn3t.py. 
+	These files should be kept in the same folder.
+
+
+
+
+
+	
